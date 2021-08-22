@@ -423,7 +423,7 @@ body {
     margin-bottom: 110px;
 }
 
-.works__body {
+.works__tab {
     display: none;
 }
 
@@ -779,7 +779,7 @@ body {
     max-width: 20%;
 }
 
-.footer__info_text {
+.info__text {
     line-height: 2;
 }
 

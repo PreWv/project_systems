@@ -45,9 +45,9 @@ const swiper = new Swiper('.swiper-container', {
       e.addEventListener('click', function (e) {
         const tab = e.currentTarget.dataset.path;
 
-        document.querySelectorAll('.works__body').forEach(function (e) {
-          e.classList.remove('works__body_active')
-          document.querySelector(`[data-target='${tab}']`).classList.add('works__body_active');
+        document.querySelectorAll('.works__tab').forEach(function (e) {
+          e.classList.remove('works__tab_active')
+          document.querySelector(`[data-target='${tab}']`).classList.add('works__tab_active');
         });
       });
   
